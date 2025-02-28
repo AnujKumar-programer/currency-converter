@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ak</title>
+</head>
+<link rel="stylesheet" href="st.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <div class="container">
+        <h2>Currency converter</h2>
+        <form >
+            <div class="amount">
+                <p class="enter">Enter amount:</p>
+                
+                
+                <input  class="input" name="text" type="text" value="100">
+                <div class="dropdown">
+                    <div class="from">
+                        <p>From</p>
+                        <div class="select">
+                            <img src="https://flagsapi.com/US/flat/64.png">
+                            <select name="from" >
+                                <option value="USD">US</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <i class="fa-sharp fa-solid fa-right-left"></i>
+                    <div class="to">
+                        <p>TO</p>
+                        <div class="select">
+                            <img src="https://flagsapi.com/IN/flat/64.png">
+                            <select name="to" >
+                                <option value="INR">INR</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="msg"></div>
+        
+       
+            <button class="btn">
+              <span class="text">Get Exchange Rate</span>
+            </button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
